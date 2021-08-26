@@ -1,9 +1,7 @@
-package com.kdanwoo.jpademo.entity;
+package com.kdanwoo.jpademo.domain.entity;
 
-import lombok.Generated;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -26,4 +24,6 @@ public class Member {
 
     @OneToMany(mappedBy = "member") //@OneToMany(mappedBy = "{주인 Entity의 Field Name}")
     private List<Order> orders = new ArrayList<>();
+
+
 }

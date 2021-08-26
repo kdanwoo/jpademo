@@ -1,4 +1,4 @@
-package com.kdanwoo.jpademo.entity;
+package com.kdanwoo.jpademo.domain.entity;
 
 import com.kdanwoo.jpademo.enums.OrderStatus;
 import lombok.Getter;

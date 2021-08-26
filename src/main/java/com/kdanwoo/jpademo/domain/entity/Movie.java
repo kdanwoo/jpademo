@@ -1,4 +1,4 @@
-package com.kdanwoo.jpademo.entity;
+package com.kdanwoo.jpademo.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;
